@@ -40,8 +40,144 @@
     </nav>
     <!-- end navbar -->
     <!--form signup-->
-    <section>
-      <h1>"Sign Up" ::after</h1>
+    <section class="signup">
+      <div class="signuptitle">
+        <h1>Sign Up</h1>
+      </div>
     </section>
+    <section class="container">
+      <div class="note">
+        Form Dengan tanda
+        <span class="marked">*</span>
+        wajib diisi.
+        <p class="note2">
+          <i>
+            Form marked with
+            <span class="marked">*</span>
+            are required
+          </i>
+        </p>
+      </div>
+    </section>
+    <form>
+      <section class="formsignup">
+        <div class="title">
+          <h2>Verifikasi Email <i>(Email Verification)</i></h2>
+        </div>
+        <div class="formlabel">
+          <label for="email">Email<span class="marked">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          /><br />
+        </div>
+        <div class="title">
+          <h2>Data Akun <i>(Account)</i></h2>
+        </div>
+        <div class="formlabel">
+          <label for="Password"
+            >Create Password<span class="marked">*</span></label
+          >
+          <input
+            type="Password"
+            id="Password"
+            name="Password"
+            placeholder="Your Password"
+            required
+          /><br /><br />
+          <label for="Password"
+            >Retype your Password<span class="marked">*</span></label
+          >
+          <input
+            type="Password"
+            id="Password2"
+            name="Password2"
+            placeholder="Your Password"
+            required
+          />
+        </div>
+        <div class="title">
+          <h2>Data Pribadi <i> (Personal Information)</i></h2>
+        </div>
+        <div class="radio">
+          <p>Citizen<span class="marked">*</span></p>
+          <div class="radiobutton">
+            <input type="radio" id="wni" name="citizen" value="wni" />
+            <label for="wni">WNI</label>
+            <input type="radio" id="wni" name="citizen" value="wni" />
+            <label for="wna">WNA</label>
+          </div>
+        </div>
+        <div class="radio">
+          <p>Gender<span class="marked">*</span></p>
+          <div class="radiobutton">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="wni">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="wna">Female</label>
+          </div>
+        </div>
+        <div class="formlabel">
+          <label for="number"
+            >National Identification Number<span class="marked">*</span></label
+          >
+          <input
+            type="number"
+            id="id"
+            name="id"
+            placeholder="Your Number ID"
+            required
+          />
+          <br /><br />
+          <label for="dateofbirth"
+            >Date of Birth<span class="marked">*</span></label
+          >
+          <input type="date" id="birthday" name="birthday" required />
+        </div>
+        <div class="title">
+          <h2>Data Kontak <i>(Contact)</i></h2>
+        </div>
+        <div class="formlabel">
+          <label for="mobile">Mobile<span class="marked">*</span></label>
+          <input
+            type="tel"
+            id="mobile"
+            name="mobile"
+            placeholder="08xxxx"
+            required
+          />
+          <br /><br />
+          <label for="wanumber"
+            >Whatsapp number<span class="marked">*</span></label
+          >
+          <input
+            type="tel"
+            id="wanumber"
+            name="wanumber"
+            placeholder="08xxxx"
+            required
+          />
+          <br /><br />
+          <label for="telegram">Telegram username</label>
+          <input
+            type="text"
+            id="telegram"
+            name="telegram"
+            placeholder="@username"
+          />
+        </div>
+        <div class="req">
+          <input type="checkbox" id="myCheck" name="test" /> I declare that all
+          information as I fill in the application online is true, legal, and
+          according to the real situation and statements. I WILL NOT CHANGE THE
+          DATA AFTER I CREATE AN ACCOUNT. <span class="marked">*</span> <br />
+          <input type="submit" id="register" value="Register" />
+          <input type="button" id="cancel" value="cancel" />
+        </div>
+      </section>
+    </form>
   </body>
 </html>
