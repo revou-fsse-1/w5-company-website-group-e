@@ -9,3 +9,4 @@ function toggleClicked() {
         password.type = "password";
       }
     }
+    
