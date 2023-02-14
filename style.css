@@ -152,15 +152,13 @@ header .overlay {
 }
 .content-about {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #fff;
-  align-items: center;
 }
 
 .content-about img {
-  width: 800px;
+  width: 100%;
   object-fit: cover;
-  margin-right: 40px;
 }
 
 .header {
@@ -172,6 +170,7 @@ header .overlay {
   color: #000;
   border-radius: 20px;
   font-size: 18px;
+  margin-left: 20px;
 }
 
 /* end about */
@@ -374,7 +373,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   nav {
-    height: 50px;
+    height: 60px;
   }
 
   .logo {
@@ -388,17 +387,13 @@ footer {
     padding-top: 50px;
   }
 
-  .header {
-    height: 82vh;
+  header {
+    height: 81vh;
   }
 
   header video {
     width: 100%;
   }
-
-  /* header .overlay {
-    height: 79%;
-  } */
 
   .about {
     padding: 0px 20px;
@@ -450,12 +445,50 @@ footer {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(3px);
-    margin-top: 50px;
+    margin-top: 52px;
     transform: translateX(100%);
     transition: all 1s;
   }
 
+  header {
+    height: 44vh;
+  }
+
+  header .overlay {
+    height: 100%;
+  }
+
   nav ul.slide {
     transform: translateX(0);
+  }
+
+  .event {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .chapter {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-footer {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0px;
+    margin: 5px;
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  header {
+    height: 39vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    height: 32vh;
   }
 }
