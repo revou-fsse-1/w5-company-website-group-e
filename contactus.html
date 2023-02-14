@@ -4,33 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UGM</title>
-    <link rel="stylesheet" href="signup.css" />
+    <title>fsee</title>
+    <link rel="stylesheet" href="contactus.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav>
-      <img class="logo" src="images/logo2.png" alt="logo" />
+      <img class="logo" src="images/logo.png" alt="logo" />
       <ul>
         <li><a href="indext.html">Home</a></li>
-        <li>
-          <a href="page-404/404.html">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="currentColor"
-              class="bi bi-person-circle"
-              viewBox="0 0 16 16"
-            >
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-              <path
-                fill-rule="evenodd"
-                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-              />
-            </svg>
-          </a>
-        </li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
       </ul>
       <div class="menu-toggle">
         <input type="checkbox" />
@@ -39,146 +23,87 @@
       </div>
     </nav>
     <!-- end navbar -->
-    <!--form signup-->
-    <section class="signup">
+    <!--hero-->
+    <section class="Contact Us">
       <div class="signuptitle">
-        <h1>Sign Up</h1>
+        <h1>Contact Us</h1>
       </div>
     </section>
-    <section class="container">
-      <div class="note">
-        Form Dengan tanda
-        <span class="marked">*</span>
-        wajib diisi.
-        <p class="note2">
-          <i>
-            Form marked with
-            <span class="marked">*</span>
-            are required
-          </i>
-        </p>
-      </div>
+    <!-- end hero -->
+    <section class="joinchapter">
+      <img
+        class="joinimg"
+        src="images/joinchapter.png"
+        alt="revouchapterandrew"
+      />
+      <br />
+      <p>Enrich your connection, meet up offline with fellow alumni near you</p>
+      <form
+        action="https://revou.notion.site/RevoU-Chapter-22db27a8b42c4d50af3a28fda29540ae"
+        method="get"
+        target="_blank"
+      >
+        <button>Join Chapter</button>
+      </form>
     </section>
-    <form>
-      <section class="formsignup">
-        <div class="title">
-          <h2>Verifikasi Email <i>(Email Verification)</i></h2>
-        </div>
-        <div class="formlabel">
-          <label for="email">Email<span class="marked">*</span></label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          /><br />
-        </div>
-        <div class="title">
-          <h2>Data Akun <i>(Account)</i></h2>
-        </div>
-        <div class="formlabel">
-          <label for="Password"
-            >Create Password<span class="marked">*</span></label
-          >
-          <input
-            type="Password"
-            id="Password"
-            name="Password"
-            placeholder="Your Password"
-            required
-          /><br /><br />
-          <label for="Password"
-            >Retype your Password<span class="marked">*</span></label
-          >
-          <input
-            type="Password"
-            id="Password2"
-            name="Password2"
-            placeholder="Your Password"
-            required
-          />
-        </div>
-        <div class="title">
-          <h2>Data Pribadi <i> (Personal Information)</i></h2>
-        </div>
-        <div class="radio">
-          <p>Citizen<span class="marked">*</span></p>
-          <div class="radiobutton">
-            <input type="radio" id="wni" name="citizen" value="wni" />
-            <label for="wni">WNI</label>
-            <input type="radio" id="wni" name="citizen" value="wni" />
-            <label for="wna">WNA</label>
+    <fieldset class="form">
+      <h2>Contact Us Now!</h2>
+      <p>Have any suggestions for the next FSSE Community Agenda?</p>
+      <form action="">
+        <fieldset>
+          <div class="formlabel">
+            <label for="name">Name<span class="marked">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
           </div>
-        </div>
-        <div class="radio">
-          <p>Gender<span class="marked">*</span></p>
-          <div class="radiobutton">
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="wni">Male</label>
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="wna">Female</label>
+          <div class="formlabel">
+            <label for="email">Email<span class="marked">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
           </div>
-        </div>
-        <div class="formlabel">
-          <label for="number"
-            >National Identification Number<span class="marked">*</span></label
-          >
-          <input
-            type="number"
-            id="id"
-            name="id"
-            placeholder="Your Number ID"
-            required
-          />
-          <br /><br />
-          <label for="dateofbirth"
-            >Date of Birth<span class="marked">*</span></label
-          >
-          <input type="date" id="birthday" name="birthday" required />
-        </div>
-        <div class="title">
-          <h2>Data Kontak <i>(Contact)</i></h2>
-        </div>
-        <div class="formlabel">
-          <label for="mobile">Mobile<span class="marked">*</span></label>
-          <input
-            type="tel"
-            id="mobile"
-            name="mobile"
-            placeholder="08xxxx"
-            required
-          />
-          <br /><br />
-          <label for="wanumber"
-            >Whatsapp number<span class="marked">*</span></label
-          >
-          <input
-            type="tel"
-            id="wanumber"
-            name="wanumber"
-            placeholder="08xxxx"
-            required
-          />
-          <br /><br />
-          <label for="telegram">Telegram username</label>
-          <input
-            type="text"
-            id="telegram"
-            name="telegram"
-            placeholder="@username"
-          />
-        </div>
-        <div class="req">
-          <input type="checkbox" id="myCheck" name="test" /> I declare that all
-          information as I fill in the application online is true, legal, and
-          according to the real situation and statements. I WILL NOT CHANGE THE
-          DATA AFTER I CREATE AN ACCOUNT. <span class="marked">*</span> <br />
-          <input type="submit" id="register" value="Register" />
-          <input type="button" id="cancel" value="cancel" />
-        </div>
-      </section>
-    </form>
+          <div class="formlabel">
+            <label for="mobile">Mobile<span class="marked">*</span></label>
+            <input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              placeholder="08xxxx"
+              required
+            />
+          </div>
+          <div class="formlabel">
+            <label for="batch">Batch<span class="marked"></span></label>
+            <input type="text" id="batch" name="batch" placeholder="#1" />
+          </div>
+          <div class="formlabel">
+            <label for="">Chapter</label>
+            <select id="chapter">
+              <option value="jakarta">Jakarta</option>
+              <option value="depokbogor" selected>Depok-Bogor</option>
+              <option value="surabaya">Surabaya</option>
+              <option value="semarang">Semarang</option>
+              <option value="bali">Bali</option>
+              <option value="tangerang">Tangerang</option>
+            </select>
+          </div>
+          <div class="formlabel">
+            <p>Your Suggestion<span class="marked"></span></p>
+            <textarea rows="3"></textarea>
+          </div>
+          <button type="submit" form="nameform" value="Submit">Submit</button>
+        </fieldset>
+      </form>
+    </fieldset>
     <section class="footer">
       <div class="contact">
         <img class="logo2" src="images/logo2.png" alt="logo" /> <br />
@@ -220,10 +145,8 @@
         <div>
           <ul>
             <li><a href="indext.html">Home</a></li>
-            <li><a href="indext.html">About</a></li>
-            <li><a href="indext.html">Program</a></li>
-            <li><a href="indext.html">Gallery</a></li>
-            <li><a href="indext.html">Contact</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
           </ul>
         </div>
       </div>

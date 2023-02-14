@@ -1,9 +1,9 @@
 :root {
-    --base: #1D2351;
+    --base: #fff;
     --base-secondary: #2C3577;
-    --background: #39404A;
+    --background: #fff;
     --fonttitle: #FFD700;
-    --fonttext: #FFFFFF;
+    --fonttext: black;
     --colorside: #E52323;
   }
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
@@ -20,15 +20,12 @@
         font-family: 'poppins';
       }
       /* navbar */
-      .logo {
-    width: 200px;
-    height: 56.55px;
-    margin-left: 50px;
+    .logo {
+    width: 70px;
+    height: 70px;
+    align-content: center;
       }
-      .profile{
-        width: 80px;
-        padding: 20%;
-      }
+
     nav {
       position: sticky;
       backdrop-filter: blur(3px);
@@ -41,7 +38,6 @@
       left: 0;
       z-index: 1;
       padding: 1.5rem 3.5rem;
-     
     }
     nav ul {
       display: flex;
@@ -50,11 +46,12 @@
     }
     
     nav ul li a {
-      color: #fff;
+      color: var(--fonttext);
       text-decoration: none;
       font-size: 20px;
-      padding: 0 10px;
-      margin:-70%;
+      padding: 50px 10px;
+      Margin: -10%;
+      margin-right: 10%;
     }
     
     nav ul li a:hover {
@@ -165,7 +162,7 @@ color:#fff;
   font-style: normal;
 }
 .formlabel {
-  padding: 30px;
+  padding-top: 30px;
   background-color: var(--base-secondary);
   margin-left: 100px;
   margin-right: 100px;
@@ -186,9 +183,6 @@ padding-left: 30px;
 font-weight: bold;
 opacity: 0.5;
 color: grey;
-}
-input::first-letter{
-  padding-left: 30px;
 }
 /* radio */
 .radio {
@@ -277,19 +271,21 @@ input::first-letter{
 width: 50px;
 }
 
-.navigation > ul >li {
+.navigation ul li {
   list-style: none;
   list-style-type: none;
   align-items: center;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  background-color: var(--base);
   width: 100%;
 top: 0;
 left: 0;
 z-index: 1;
-x padding: 1.5rem 3.5rem;
+text-align: center;
+padding: 0.3rem;
+color:#fff;
+
 }
 .navigation ul li a:hover {
   color: var(--fonttitle);
@@ -303,5 +299,6 @@ footer{
 }
 
 @media screen (max-width: 600px) {
-  .footer {display: none; }
+  .footer {display: none;
+  }
 }
