@@ -250,13 +250,13 @@ header .overlay {
   font-size: 16px;
   text-decoration: none;
   color: black;
-  background-color: #787878;
+  background-color: #ffde3d;
 }
 
 .card-chapter a {
   text-decoration: none;
   padding-top: 10px;
-  color: #fff;
+  color: #000;
   align-items: center;
 }
 
@@ -275,13 +275,19 @@ header .overlay {
 
 /* footer */
 footer {
-  background-color: #787878;
+  background-color: #1c1c1c;
   box-sizing: border-box;
   border-top: 5px solid #ffde3d;
   display: flex;
   color: #fff;
   align-items: center;
   flex-direction: column;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f5f6f8;
+  cursor: pointer;
 }
 
 .section-footer img {
@@ -353,7 +359,7 @@ footer {
   font-size: 14px;
   color: #f5f6f8;
   text-align: center;
-  background: #787878;
+  background: #1c1c1c;
   margin-top: 0;
   margin-bottom: 0;
   padding: 5px;
