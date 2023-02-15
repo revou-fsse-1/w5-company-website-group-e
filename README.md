@@ -1,6 +1,6 @@
 # Website Software Engineering RevoU Community
 
-Website Software Engineering RevoU Community
+The FSSE RevoU Community Website is a community for students and alumni of the full stack software engineering RevoU program. Provide a platform for FSSE members to meetup offline.
 
 ## :bulb: Inspiration
 
