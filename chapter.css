@@ -145,6 +145,14 @@ nav ul li a:hover {
 .content ul {
   margin: 0 20px;
 }
+
+figure {
+  flex-direction: row;
+}
+
+figure img {
+  width: 40%;
+}
 /* end content */
 
 /* footer */
