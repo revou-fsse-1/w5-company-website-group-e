@@ -1,6 +1,6 @@
-# Website Software Engineering RovoU Community
+# Website Software Engineering RevoU Community
 
-Website Software Engineering RovoU Community
+Website Software Engineering RevoU Community
 
 ## :bulb: Inspiration
 
@@ -16,9 +16,9 @@ Website Software Engineering RovoU Community
 
 ## :link: Links & URLs
 
-- Link Github Pages : [Click here !](https://revou-fsse-1.github.io/w5-company-website-group-e/)
-- Link Netlify : [Click here !](https://leafy-crisp-c46297.netlify.app/)
-- Link Custom Domain : [Click here !](https://week5.nofri.xyz/)
+- [Github Pages](https://revou-fsse-1.github.io/w5-company-website-group-e/)
+- [Link Netlify](https://leafy-crisp-c46297.netlify.app/)
+- [nofri.xyz](https://week5.nofri.xyz/) | [meselghea.site](https://meselghea.site/)
 
 ## :paintbrush: link Figma
 
