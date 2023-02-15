@@ -125,7 +125,7 @@
   align-content: center;
   }
   .agendatitle h1 {
-    position: flex;
+    --position: flex;
     padding-top: 200px;
     color: var(--fonttitle);
     margin-left: 50px;
@@ -306,6 +306,12 @@ font-size: 18px;
   
     header {
       height: 81vh;
+    }
+    .agendatitle h1 {
+      position: flex;
+      padding-top: 100px;
+      text-align: center;
+      margin-left: auto;
     }
     .grid-event {
       grid-template-columns: repeat(2, 1fr);

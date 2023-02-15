@@ -166,14 +166,17 @@ max-width: 600px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 15px;
-
-
-
 }
 .joinchapter img{
   border-radius: 10px;
   max-width: 100%;
+  object-fit: cover;
 }
+.joinchapter p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .joinchapter button{
   width: 30%;
     background-color: var(--base-secondary);
@@ -197,7 +200,7 @@ color:#fff;
 
 .form h2{
   padding: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   color: black;
   font-size: 20px;
@@ -207,6 +210,9 @@ color:#fff;
   font-style: normal;
   text-align: center;
   font-weight: bold;
+  border-radius: 10px;
+
+
 }
 .form p{
   padding: 20px;
@@ -233,9 +239,10 @@ color:#fff;
 }
 fieldset{
   border:none;
-  border-radius: 10px;
+  border-radius: 15px;
   align-content: center;
 }
+
 .formlabel {
   padding-top: 10px;
   background-color: var(--base-secondary);
@@ -243,6 +250,7 @@ fieldset{
   margin-right: 20px;
   color: black;
   border:none;
+  text-align: center;
 }
 textarea{
 align-content: center;
@@ -258,7 +266,7 @@ input[type=email], input[type=password], input[type=number], input[type=date],in
   margin-top: 0px;
 }
 input::placeholder{
-padding-left: 30px;
+padding-left: 20px;
 font-weight: bold;
 opacity: 0.5;
 color: grey;
@@ -396,7 +404,11 @@ footer {
   header {
     height: 81vh;
   }
-
+  .joinchapter img{
+    border-radius: 8px;
+    max-width: 100%;
+    object-fit: cover;
+  }
   
 }
 
@@ -435,7 +447,9 @@ footer {
   nav ul.slide {
     transform: translateX(0);
   }
-
+  .contactus {
+    padding-top: 100px;
+  }
   .joinchapter{
     --position: flex;
     border-radius: 1px;
@@ -450,6 +464,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
     }
+    .joinchapter img{
+      border-radius: 6px;
+      max-width: 100%;
+      object-fit: cover;
+    }
+    .joinchapter button{
+      width: 40%;
+    }
+  
     .form{
       align-content: center;
       margin-top: 50px;
@@ -477,13 +500,29 @@ footer {
   header {
     height: 39vh;
   }
-
+  .form{
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contactus {
+    text-align: center;
+    margin-left: auto;
+  }
+  .form p{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 320px) {
   header {
     height: 32vh;
   }
+  
   .joinchapter{
     --position: flex;
     border-radius: 1px;
@@ -492,23 +531,35 @@ footer {
     border: #cccc solid;
     border-width: 1px;
     padding-top: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
     }
+    .joinchapter img{
+      border-radius: 4px;
+      max-width: 100%;
+      object-fit: cover;
+    }
+    .joinchapter button{
+      width: 50%;
+    }
     .form{
       align-content: center;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      max-width: 320px;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-top: 20px;
+      margin-bottom: 60px;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .contactus {
       text-align: center;
       margin-left: auto;
+    }
+    .form p{
+      margin-left: auto;
+      margin-right: auto;
     }
 }
 
