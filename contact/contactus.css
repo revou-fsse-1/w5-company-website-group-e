@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 :root {
-    --base: #fff;
-    --base-secondary:#FFDE3D;
-    --background: #fff;
-    --fonttitle: #FFD700;
-    --fonttext: black;
-    --colorside: #E52323;
-  }
+  --base: #fff;
+  --base-secondary: #ffde3d;
+  --background: #fff;
+  --fonttitle: #ffd700;
+  --fonttext: black;
+  --colorside: #e52323;
+}
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-      }
-      body {
-        --background-color: var(--background);
-        font-family: "poppins";
-      }
-     /* navbar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  --background-color: var(--background);
+  font-family: "poppins";
+}
+/* navbar */
 .logo {
   width: 80px;
   margin-left: 50px;
@@ -112,93 +112,94 @@ nav ul li a:hover {
 /* end animation hamburger */
 
 /* end navbar */
-      /* hero */
-      
-      /* pengaturan header */
-      header {
-        position: relative;
-        height: 100vh;
-        width: 100%;
-        overflow: hidden;
-        z-index: 2;
-      }
-      header .intro {
-        z-index: 100;
-        color: #fff;
-        text-align: center;
-        position: relative;
-        top: 30%;
-      }
-      
-      header .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: #000;
-        opacity: 50%;
-        z-index: -1;
-      }
-      /* end hero */
+/* hero */
 
-      .contactus {
-        position: flex;
-        padding-top: 200px;
-        color: var(--fonttitle);
-        margin-left: 200px;
-        font-size: 30px;
-        font-weight: 700;
-      
-      }
-
-.joinchapter{
---position: flex;
-border-radius: 1px;
-background-color: #fff;
-text-align: center;
-border: #cccc solid;
-border-width: 1px;
-padding-top: 20px;
-margin-top: 50px;
-margin-bottom: 50px;
-max-width: 600px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 15px;
+/* pengaturan header */
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
 }
-.joinchapter img{
+header .intro {
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 50%;
+  z-index: -1;
+}
+/* end hero */
+
+.contactus {
+  position: flex;
+  padding-top: 200px;
+  color: var(--fonttitle);
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.joinchapter {
+  --position: flex;
+  border-radius: 1px;
+  background-color: #fff;
+  text-align: center;
+  border: #cccc solid;
+  border-width: 1px;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+.joinchapter img {
   border-radius: 10px;
   max-width: 100%;
   object-fit: cover;
 }
-.joinchapter p{
+.joinchapter p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.joinchapter button{
+.joinchapter button {
   width: 30%;
-    background-color: var(--base-secondary);
-    color: black;
-    text-align: center;
-   padding: 10px;
-    margin-bottom: 30px;
-    opacity: 1;
-    border-radius : 10px;
-    transition: 0.3s;
-    border-color: #ffde3d;
-  }
-  .joinchapter button:hover {opacity: 0.6}
+  background-color: var(--base-secondary);
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  opacity: 1;
+  border-radius: 10px;
+  transition: 0.3s;
+  border-color: #ffde3d;
+}
+.joinchapter button:hover {
+  opacity: 0.6;
+}
 
 .note {
-color:#fff;
+  color: #fff;
 }
 .marked {
   color: red;
 }
 
-.form h2{
+.form h2 {
   padding: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -211,10 +212,8 @@ color:#fff;
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
-
-
 }
-.form p{
+.form p {
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -226,7 +225,7 @@ color:#fff;
   font-style: normal;
   text-align: center;
 }
-.form{
+.form {
   align-content: center;
   margin-top: 100px;
   margin-bottom: 200px;
@@ -237,8 +236,8 @@ color:#fff;
   border: none;
   border-radius: 15px;
 }
-fieldset{
-  border:none;
+fieldset {
+  border: none;
   border-radius: 15px;
   align-content: center;
 }
@@ -249,14 +248,20 @@ fieldset{
   margin-left: 20px;
   margin-right: 20px;
   color: black;
-  border:none;
+  border: none;
   text-align: center;
 }
-textarea{
-align-content: center;
-width: 100%;
+textarea {
+  align-content: center;
+  width: 100%;
 }
-input[type=email], input[type=password], input[type=number], input[type=date],input[type=tel],input[type=text],select {
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="text"],
+select {
   width: 70%;
   float: right;
   padding-block: 5px;
@@ -265,14 +270,14 @@ input[type=email], input[type=password], input[type=number], input[type=date],in
   border-radius: 10px;
   margin-top: 0px;
 }
-input::placeholder{
-padding-left: 20px;
-font-weight: bold;
-opacity: 0.5;
-color: grey;
+input::placeholder {
+  padding-left: 20px;
+  font-weight: bold;
+  opacity: 0.5;
+  color: grey;
 }
 
-#submit{
+#submit {
   background-color: white;
   color: black;
   text-align: center;
@@ -283,17 +288,25 @@ color: grey;
   transition: 0.3s;
   justify-content: center;
 }
-#submit:hover {opacity: 0.6}
-
+#submit:hover {
+  opacity: 0.6;
+}
 
 /* footer */
 footer {
-  background-color: #787878;
+  background-color: #1c1c1c;
   box-sizing: border-box;
+  border-top: 5px solid #ffde3d;
   display: flex;
   color: #fff;
   align-items: center;
   flex-direction: column;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f5f6f8;
+  cursor: pointer;
 }
 
 .section-footer img {
@@ -365,7 +378,7 @@ footer {
   font-size: 14px;
   color: #f5f6f8;
   text-align: center;
-  background: #787878;
+  background: #1c1c1c;
   margin-top: 0;
   margin-bottom: 0;
   padding: 5px;
@@ -404,12 +417,11 @@ footer {
   header {
     height: 81vh;
   }
-  .joinchapter img{
+  .joinchapter img {
     border-radius: 8px;
     max-width: 100%;
     object-fit: cover;
   }
-  
 }
 
 @media screen and (max-width: 426px) {
@@ -450,7 +462,7 @@ footer {
   .contactus {
     padding-top: 100px;
   }
-  .joinchapter{
+  .joinchapter {
     --position: flex;
     border-radius: 1px;
     background-color: #fff;
@@ -463,28 +475,28 @@ footer {
     max-width: 426px;
     margin-left: auto;
     margin-right: auto;
-    }
-    .joinchapter img{
-      border-radius: 6px;
-      max-width: 100%;
-      object-fit: cover;
-    }
-    .joinchapter button{
-      width: 40%;
-    }
-  
-    .form{
-      align-content: center;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      max-width: 426px;
-      margin-left:3px;
-      margin-right: 3px;
-    }
-    .contactus {
-      text-align: center;
-      margin-left: auto;
-    }
+  }
+  .joinchapter img {
+    border-radius: 6px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .joinchapter button {
+    width: 40%;
+  }
+
+  .form {
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 426px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .contactus {
+    text-align: center;
+    margin-left: auto;
+  }
   .section-footer {
     display: flex;
     justify-content: center;
@@ -500,7 +512,7 @@ footer {
   header {
     height: 39vh;
   }
-  .form{
+  .form {
     align-content: center;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -512,7 +524,7 @@ footer {
     text-align: center;
     margin-left: auto;
   }
-  .form p{
+  .form p {
     margin-left: auto;
     margin-right: auto;
   }
@@ -522,8 +534,8 @@ footer {
   header {
     height: 32vh;
   }
-  
-  .joinchapter{
+
+  .joinchapter {
     --position: flex;
     border-radius: 1px;
     background-color: #fff;
@@ -536,30 +548,29 @@ footer {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    }
-    .joinchapter img{
-      border-radius: 4px;
-      max-width: 100%;
-      object-fit: cover;
-    }
-    .joinchapter button{
-      width: 50%;
-    }
-    .form{
-      align-content: center;
-      margin-top: 20px;
-      margin-bottom: 60px;
-      max-width: 300px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .contactus {
-      text-align: center;
-      margin-left: auto;
-    }
-    .form p{
-      margin-left: auto;
-      margin-right: auto;
-    }
+  }
+  .joinchapter img {
+    border-radius: 4px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .joinchapter button {
+    width: 50%;
+  }
+  .form {
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contactus {
+    text-align: center;
+    margin-left: auto;
+  }
+  .form p {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
