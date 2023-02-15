@@ -124,6 +124,7 @@ header video {
   left: 0;
   object-fit: cover;
   z-index: -2;
+  width: 100%;
 }
 header .intro {
   z-index: 100;
@@ -222,8 +223,8 @@ header .overlay {
 }
 
 .event img {
-  width: 321px;
-  height: 180px;
+  width: 100%;
+  object-fit: cover;
 }
 /* end event */
 
@@ -266,7 +267,7 @@ header .overlay {
 }
 
 .chapter img {
-  width: 321px;
+  width: 100%;
   object-fit: cover;
   height: 180px;
 }
@@ -276,6 +277,7 @@ header .overlay {
 footer {
   background-color: #787878;
   box-sizing: border-box;
+  border-top: 5px solid #ffde3d;
   display: flex;
   color: #fff;
   align-items: center;
@@ -443,7 +445,7 @@ footer {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255);
     backdrop-filter: blur(3px);
     margin-top: 52px;
     transform: translateX(100%);
@@ -490,5 +492,10 @@ footer {
 @media screen and (max-width: 320px) {
   header {
     height: 32vh;
+  }
+
+  .event img {
+    object-fit: cover;
+    height: 80%;
   }
 }
