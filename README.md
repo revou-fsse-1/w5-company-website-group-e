@@ -12,9 +12,9 @@ Website Software Engineering RovoU Community
 
 ## :link: Links & URLs
 
-Link Github Pages : [Click here !](https://revou-fsse-1.github.io/w5-company-website-group-e/)
-Link Netlify : [Click here !](https://leafy-crisp-c46297.netlify.app/)
-Link Custom Domain : [Click here !] (https://week5.nofri.xyz/)
+- Link Github Pages : [Click here !](https://revou-fsse-1.github.io/w5-company-website-group-e/)
+- Link Netlify : [Click here !](https://leafy-crisp-c46297.netlify.app/)
+- Link Custom Domain : [Click here !] (https://week5.nofri.xyz/)
 
 ## :paintbrush: link Figma
 
