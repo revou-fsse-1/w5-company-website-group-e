@@ -187,6 +187,7 @@ header .overlay {
   border-radius: 10px;
   transition: 0.3s;
   border-color: #ffde3d;
+  cursor: pointer;
 }
 .joinchapter button:hover {
   opacity: 0.6;
@@ -254,6 +255,8 @@ fieldset {
 textarea {
   align-content: center;
   width: 100%;
+  border: none;
+  border-radius: 10px;
 }
 input[type="email"],
 input[type="password"],
@@ -265,13 +268,12 @@ select {
   width: 70%;
   float: right;
   padding-block: 5px;
-  padding-left: 50px;
+  padding-left: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
   margin-top: 0px;
 }
 input::placeholder {
-  padding-left: 20px;
   font-weight: bold;
   opacity: 0.5;
   color: grey;
@@ -287,6 +289,10 @@ input::placeholder {
   opacity: 1;
   transition: 0.3s;
   justify-content: center;
+  border-radius: 10px;
+  border-color: white;
+  width: 30%;
+  cursor: pointer;
 }
 #submit:hover {
   opacity: 0.6;
@@ -497,6 +503,9 @@ footer {
     text-align: center;
     margin-left: auto;
   }
+  #submit {
+    width: 40%;
+  }
   .section-footer {
     display: flex;
     justify-content: center;
@@ -572,5 +581,8 @@ footer {
   .form p {
     margin-left: auto;
     margin-right: auto;
+  }
+  #submit {
+    width: 50%;
   }
 }
