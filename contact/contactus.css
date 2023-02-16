@@ -190,10 +190,9 @@ header .overlay {
   cursor: pointer;
 }
 .joinchapter button:hover {
-  opacity: 0.9;
-  background-color: black;
-  color: var(--base-secondary);
-  border-color:  rgb(60, 59, 59);
+  opacity: 0.5;
+  background-color: #d1b200;
+  color:white;
 }
 
 .note {
@@ -247,8 +246,8 @@ fieldset {
 }
 
 .formlabel {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: var(--base-secondary);
   margin-left: 20px;
   margin-right: 20px;
@@ -263,6 +262,8 @@ textarea {
   width: 100%;
   border: none;
   border-radius: 10px;
+  padding-left: 20px;
+  padding-block: 12px;
 }
 input[type="email"],
 input[type="password"],
@@ -283,7 +284,6 @@ input::placeholder {
   opacity: 0.5;
   color: grey;
 }
-
 #submit {
   background-color: white;
   color: black;
@@ -300,9 +300,9 @@ input::placeholder {
   cursor: pointer;
 }
 #submit:hover {
-  opacity: 0.9;
-  background-color: black;
-  color: white;
+  opacity: 0.2;
+  background-color: #000;
+  color: #fff;
 }
 
 /* footer */
