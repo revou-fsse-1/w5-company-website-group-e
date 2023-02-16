@@ -20,7 +20,7 @@ The FSSE RevoU Community Website is a community for students and alumni of the f
 
 - [Github Pages](https://revou-fsse-1.github.io/w5-company-website-group-e/)
 - [https://revou-community.netlify.app/](https://revou-community.netlify.app/) | [fsserevoucommunity.netlify.app](fsserevoucommunity.netlify.app)
-- [https://fsse-revou-community.nofri.xyz/](https://fsse-revou-community.nofri.xyz/) | [fsserevoucommunity.mesel.site](fsserevoucommunity.mesel.site)
+- [https://fsse-revou-community.nofri.xyz/](https://fsse-revou-community.nofri.xyz/) | [fsserevoucommunity.mesel.site](https://fsserevoucommunity.mesel.site/)
 
 ## :paintbrush: link Figma
 
