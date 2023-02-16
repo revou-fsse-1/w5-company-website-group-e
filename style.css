@@ -111,38 +111,9 @@ nav ul li a:hover {
 .hero {
   padding-top: 120px;
 }
-header {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  z-index: 2;
-}
-header video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  z-index: -2;
-  width: 100%;
-}
-header .intro {
-  z-index: 100;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  top: 30%;
-}
 
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+.hero video {
   width: 100%;
-  background-color: #000;
-  opacity: 50%;
-  z-index: -1;
 }
 /* end hero */
 
@@ -395,10 +366,6 @@ footer {
     padding-top: 50px;
   }
 
-  header {
-    height: 81vh;
-  }
-
   header video {
     width: 100%;
   }
@@ -431,6 +398,18 @@ footer {
 
   .chapter img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-footer {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0px;
+    margin: 5px;
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: center;
   }
 }
 
