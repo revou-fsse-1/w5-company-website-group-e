@@ -134,7 +134,7 @@ nav ul li a:hover {
 }
 .calendar {
   position: relative;
-  padding-bottom: 30%;
+  padding-bottom: 40%;
   padding-top: auto;
   justify-content: center;
   height: 50%;
@@ -319,6 +319,9 @@ footer {
     text-align: center;
     margin-left: auto;
   }
+  .calendar {
+    padding-bottom: 50%;
+  }
   .grid-event {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -419,7 +422,7 @@ footer {
   }
   .calendar {
     position: relative;
-    padding-bottom: 58.9%;
+    padding-bottom: 70%;
     padding-top: auto;
     width: 100%;
   }
