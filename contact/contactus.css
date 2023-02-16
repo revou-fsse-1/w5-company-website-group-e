@@ -190,7 +190,10 @@ header .overlay {
   cursor: pointer;
 }
 .joinchapter button:hover {
-  opacity: 0.6;
+  opacity: 0.9;
+  background-color: black;
+  color: var(--base-secondary);
+  border-color:  rgb(60, 59, 59);
 }
 
 .note {
@@ -244,13 +247,16 @@ fieldset {
 }
 
 .formlabel {
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: var(--base-secondary);
   margin-left: 20px;
   margin-right: 20px;
   color: black;
   border: none;
   text-align: center;
+  justify-content: center;
+
 }
 textarea {
   align-content: center;
@@ -267,11 +273,10 @@ input[type="text"],
 select {
   width: 70%;
   float: right;
-  padding-block: 5px;
+  padding-block: 12px;
   padding-left: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  margin-top: 0px;
 }
 input::placeholder {
   font-weight: bold;
@@ -290,12 +295,14 @@ input::placeholder {
   transition: 0.3s;
   justify-content: center;
   border-radius: 10px;
-  border-color: white;
+  border-color: rgb(216, 212, 212);
   width: 30%;
   cursor: pointer;
 }
 #submit:hover {
-  opacity: 0.6;
+  opacity: 0.9;
+  background-color: black;
+  color: white;
 }
 
 /* footer */
