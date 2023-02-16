@@ -186,6 +186,7 @@ nav ul li a:hover {
 .eventbar img {
   border-radius: 10px;
   object-fit: cover;
+  width: 100%;
 }
 
 /* footer */
