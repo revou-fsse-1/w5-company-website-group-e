@@ -19,8 +19,8 @@ The FSSE RevoU Community Website is a community for students and alumni of the f
 ## :link: Links & URLs
 
 - [Github Pages](https://revou-fsse-1.github.io/w5-company-website-group-e/)
-- [Link Netlify](https://revou-community.netlify.app/)
-- [https://fsse-revou-community.nofri.xyz/](https://fsse-revou-community.nofri.xyz/) | [meselghea.site](https://meselghea.site/)
+- [https://revou-community.netlify.app/](https://revou-community.netlify.app/) | [fsserevoucommunity.netlify.app](fsserevoucommunity.netlify.app)
+- [https://fsse-revou-community.nofri.xyz/](https://fsse-revou-community.nofri.xyz/) | [fsserevoucommunity.mesel.site](fsserevoucommunity.mesel.site)
 
 ## :paintbrush: link Figma
 
