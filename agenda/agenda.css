@@ -159,8 +159,6 @@ nav ul li a:hover {
 .eventtitle {
   padding-top: 30px;
   font-size: 18px;
-}
-.event {
   text-align: center;
 }
 .grid-event {
@@ -435,7 +433,7 @@ footer {
   }
   .calendar {
     position: relative;
-    padding-bottom: 70%;
+    padding-bottom: 80%;
     padding-top: auto;
     width: 100%;
   }
