@@ -16,6 +16,10 @@ The FSSE RevoU Community Website is a community for students and alumni of the f
 - [Event](images/pagereadme/event.png)
 - [Chapter](images/pagereadme/chapter.png)
 
+## :art: Font & Color Palettes
+
+![color](images/pagereadme/font.png)
+
 ## :link: Links & URLs
 
 - [Github Pages](https://revou-fsse-1.github.io/w5-company-website-group-e/)
